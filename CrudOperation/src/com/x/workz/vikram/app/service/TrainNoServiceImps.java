@@ -9,7 +9,7 @@ public class TrainNoServiceImps implements TrainNoService {
    }
    
 	@Override
-	public boolean ValidAndSave(int traincode) {
+	public boolean validAndSave(int traincode) {
 		System.out.println("invoking in validAndSave in TrainCode impl");
 		if(traincode >=5000 && traincode <=10000) {
 			System.out.println("traincode is valid then store in post"+this.getClass().getSimpleName());

@@ -227,8 +227,8 @@ select {
 		function tournamentNameValidation() {
 			var submitButton = document.getElementById("disabled");
 			var tournamentName = document.getElementById('tournamentName').value;
-			console.log(tournamentName)
-			if (tournamentName.length >= 3 && tournamentName.length < 20) {
+			console.log('tournamentName>>>',tournamentName)
+			if (tournamentName!='   ' && tournamentName.length >= 3 && tournamentName.length < 20) {
 				document.getElementById('tournamentNameError').innerHTML = 'Tournament Name is valid';
 				submitButton.removeAttribute("disabled")
 			} else {

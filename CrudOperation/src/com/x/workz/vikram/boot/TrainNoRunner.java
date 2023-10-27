@@ -11,8 +11,8 @@ public class TrainNoRunner {
 		System.out.println("invoking in TrainNoRunner");
 		TrainNo trainNo=new TrainNoImps();
 		TrainNoService trainNoService=new TrainNoServiceImps(trainNo);
-		trainNoService.ValidAndSave(8399);
-		trainNoService.ValidAndSave(8399);
+		trainNoService.validAndSave(8399);
+		trainNoService.validAndSave(8399);
 		
 		
 

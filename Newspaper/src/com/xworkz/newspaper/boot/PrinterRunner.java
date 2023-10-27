@@ -11,7 +11,7 @@ public class PrinterRunner {
 	public static void main(String[] args) {
 		System.out.println("invoking in main method");
 		PrinterRepository printerRepository=new PrinterRepositoryImpl();
-		PrinterService printerService=new PrinterServiceImpl(printerRepository);
+		PrinterService printerService=new PrinterServiceImpl(printerRepository); 
 		PrinterDTO dto=new PrinterDTO("EpsonL390", "Epson", 873, "LaserJet Printers");
 		
 		boolean persisted=printerService.validateAndSave(dto);

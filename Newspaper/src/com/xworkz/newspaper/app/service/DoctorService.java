@@ -4,4 +4,5 @@ import com.xworkz.newspaper.app.dto.DoctorDTO;
 
 public interface DoctorService {
 	boolean validateAndSave(DoctorDTO dto);
+	
 }
