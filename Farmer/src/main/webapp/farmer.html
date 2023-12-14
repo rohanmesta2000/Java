@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Farmer</title>
+  </head>
+  <body>
+   
+<nav class="navbar bg-primary" data-bs-theme="dark">
+<div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link" href="farmer.html">Farmer</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<form class="row g-3" action="rohan">
+  <div class="col-md-6">
+    <label for="inputName" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name" name="name">
+  </div>
+  <div class="col-md-6">
+    <label for="inputAcres" class="form-label">Acres</label>
+    <input type="number" class="form-control" id="acres" name="acres">
+  </div>
+  <div class="col-md-4">
+    <label for="inputSoilType" class="form-label">SoilType</label>
+    <select id="inputSoilType" class="form-select" name="soilType">
+      <option selected>Choose...</option>
+      <option>Black Soil</option>
+      <option>Red Soil</option>
+      <option>Brown Soil</option>
+      <option>Sandy Soil</option>
+    </select>
+  </div>
+  <div class="col-md-4">
+    <label for="inputCropType" class="form-label">CropType</label>
+    <select id="inputCropType" class="form-select" name="cropType">
+      <option selected>Choose...</option>
+      <option>Wheat</option>
+      <option>Maize</option>
+      <option>Rice</option>
+      <option>Sugarcane</option>
+    </select>
+  </div>
+  <div class="col-md-4">
+    <label for="inputFertilizer" class="form-label">Fertilizer</label>
+    <select id="inputFertilizer" class="form-select" name="fertilizer">
+      <option selected>Choose...</option>
+      <option>Urea</option>
+      <option>Pottasium</option>
+      <option>Amonium</option>
+      <option>Phosphorous</option>
+    </select>
+  </div>
+  <div class="col-md-4">
+    <label for="inputSeason" class="form-label">Season</label>
+    <select id="inputSeason" class="form-select" name="season">
+      <option selected>Choose...</option>
+      <option>Summer</option>
+      <option>Winter</option>
+      <option>Rainy</option>
+    </select>
+  </div>
+  <div class="col-md-6">
+    <label for="inputInvestment" class="form-label">Investment</label>
+    <input type="number" class="form-control" id="investment" name="investment">
+  </div>
+  <div class="col-md-6">
+    <label for="inputProfit" class="form-label">Profit</label>
+    <input type="number" class="form-control" id="profit" name="profit">
+  </div>
+  <div class="col-md-6">
+    <label for="inputRTNo" class="form-label">RTNo</label>
+    <input type="number" class="form-control" id="rtno" name="rtno">
+  </div>
+  
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Save</button>
+  </div>
+</form>
+  </body>
+</html>

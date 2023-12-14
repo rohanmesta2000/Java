@@ -1,0 +1,14 @@
+package com.xworkz.youtube.configuration;
+
+public class Radio {
+	public Radio() {
+		System.out.println("craeted  Radio");
+		}
+		
+		public Radio radio1() {
+			System.out.println("created Elevator in radio config");
+			Radio radio=new Radio();
+			return radio;
+			
+		}
+}

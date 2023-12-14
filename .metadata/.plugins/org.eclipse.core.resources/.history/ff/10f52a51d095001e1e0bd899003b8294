@@ -1,0 +1,5 @@
+package com.xworkz.automobile.service;
+
+public interface AutombileRunner {
+
+}

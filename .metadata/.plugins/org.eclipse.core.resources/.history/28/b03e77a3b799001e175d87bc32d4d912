@@ -1,0 +1,18 @@
+package com.xworkz.youtube.things;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+@Component 
+public class Tile {
+	public Tile() {
+		System.out.println("craeted  generator");
+		}
+		@Bean
+		public Tile tile1() {
+			System.out.println("created Generator in bean config");
+			Tile tile=new Tile();
+			return tile;
+			
+		}
+}

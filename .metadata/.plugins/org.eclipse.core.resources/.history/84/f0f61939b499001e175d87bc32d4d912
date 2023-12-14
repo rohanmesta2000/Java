@@ -1,0 +1,14 @@
+package com.xworkz.youtube.configuration;
+
+public class Elevator {
+	public Elevator() {
+		System.out.println("craeted  Elevator");
+		}
+		
+		public Elevator elevator1() {
+			System.out.println("created Elevator in bean config");
+			Elevator elevator=new Elevator();
+			return elevator;
+			
+		}
+}

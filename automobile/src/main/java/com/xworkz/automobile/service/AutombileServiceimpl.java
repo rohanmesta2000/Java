@@ -1,0 +1,35 @@
+package com.xworkz.automobile.service;
+
+import java.util.List;
+
+import com.xworkz.automobile.model.Vehicle;
+import com.xworkz.automobile.repository.AutomobileRepository;
+import com.xworkz.automobile.repository.AutomobileRepositoryimpl;
+
+public class AutombileServiceimpl implements AutomobileService {
+
+	public AutombileServiceimpl() {
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public void validateAndSave(Vehicle vehicle) {
+		
+		AutomobileRepository automobileRepository=new AutomobileRepositoryimpl();
+		automobileRepository.saveVehicleDetails(vehicle);
+		if (vehicle.getName() != null && vehicle.getColor() != null &&  vehicle.getModel()!=0)  {
+		automobileRepository.saveVehicleDetails(vehicle);
+		} else {
+		System.out.println("Invalid Vehicle Details");
+	}
+	}
+	@Override
+	public List<Vehicle> fetchAllVehicles() {
+		
+		List<Vehicle>vehicles=
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

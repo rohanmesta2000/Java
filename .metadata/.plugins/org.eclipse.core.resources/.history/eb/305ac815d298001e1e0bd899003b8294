@@ -1,0 +1,10 @@
+package com.xworkz.automobile.service;
+
+import com.xworkz.automobile.model.Vehicle;
+
+public interface AutomobileService {
+	public void validateAndSave(Vehicle vehicle);
+	
+	public void 
+
+}

@@ -1,0 +1,14 @@
+package com.xworkz.youtube.things;
+
+public class Perfume {
+	public Perfume() {
+		System.out.println("craeted  Perfume");
+		}
+		
+		public Perfume perfume1() {
+			System.out.println("created Perfume in bean config");
+			Perfume perfume=new Perfume();
+			return perfume;
+			
+		}
+}

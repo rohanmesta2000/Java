@@ -1,0 +1,22 @@
+package com.xworkz.youtube.configuration;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+
+public class Bottle {
+public Bottle() {
+System.out.println("created bottle");	
+}
+@Bean
+public Bottle bottle() {
+	System.out.println("Created new bottlee list");
+	Bottle bottle=new Bottle();
+	return bottle;
+	
+}
+
+
+}

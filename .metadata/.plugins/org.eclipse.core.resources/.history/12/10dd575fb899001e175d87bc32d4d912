@@ -1,0 +1,17 @@
+package com.xworkz.youtube.things;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+@Configuration
+public class Elevator {
+	public Elevator() {
+		System.out.println("craeted  Elevator");
+		}
+		@Bean
+		public Elevator elevator1() {
+			System.out.println("created Elevator in bean config");
+			Elevator elevator=new Elevator();
+			return elevator;
+			
+		}
+}

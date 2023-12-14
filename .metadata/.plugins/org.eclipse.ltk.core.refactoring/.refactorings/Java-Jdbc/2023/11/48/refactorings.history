@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.xworkz.jdbc.app.JdbcLocationUpdate&apos; to &apos;JdbcFtech&apos;&#x0D;&#x0A;- Original project: &apos;Java-Jdbc&apos;&#x0D;&#x0A;- Original element: &apos;com.xworkz.jdbc.app.JdbcLocationUpdate&apos;&#x0D;&#x0A;- Renamed element: &apos;com.xworkz.jdbc.app.JdbcFtech&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;JdbcLocationUpdate&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.jdbc.app{JdbcLocationUpdate.java[JdbcLocationUpdate" matchStrategy="1" name="JdbcFtech" qualified="false" references="true" similarDeclarations="false" stamp="1701163686584" textual="false" version="1.0"/>
+</session>

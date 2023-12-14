@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.xworkz.runner.serverRunner&apos; to &apos;ServerRunner&apos;&#x0D;&#x0A;- Original project: &apos;ServletApplication&apos;&#x0D;&#x0A;- Original element: &apos;com.xworkz.runner.serverRunner&apos;&#x0D;&#x0A;- Renamed element: &apos;com.xworkz.runner.ServerRunner&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;serverRunner&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.xworkz.runner{serverRunner.java[serverRunner" matchStrategy="1" name="ServerRunner" qualified="false" references="true" similarDeclarations="false" stamp="1700894904441" textual="false" version="1.0"/>
+</session>

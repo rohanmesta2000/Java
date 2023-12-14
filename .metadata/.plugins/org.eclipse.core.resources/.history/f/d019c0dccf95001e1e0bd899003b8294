@@ -1,0 +1,5 @@
+package com.xworkz.automobile.repository;
+
+public class AutomobileRepositoryimpl {
+
+}

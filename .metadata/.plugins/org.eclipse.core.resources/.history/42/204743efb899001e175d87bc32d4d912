@@ -1,0 +1,11 @@
+package com.xworkz.youtube.things;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+@Configuration
+public class Elevator {
+	public Elevator() {
+		System.out.println("craeted  Elevator");
+		}
+		
+}

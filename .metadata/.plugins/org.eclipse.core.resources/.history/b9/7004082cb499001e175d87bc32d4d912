@@ -1,0 +1,14 @@
+package com.xworkz.youtube.configuration;
+
+public class Tile {
+	public Tile() {
+		System.out.println("craeted  generator");
+		}
+		
+		public Tile tile1() {
+			System.out.println("created Generator in bean config");
+			Tile tile=new Tile();
+			return tile;
+			
+		}
+}

@@ -1,0 +1,20 @@
+package com.xworkz.youtube.things;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+@Configuration
+public class Generator {
+	public Generator() {
+	System.out.println("craeted  generator");
+	}
+	
+	@Bean
+	public Generator generator1() {
+		System.out.println("created Generator in bean config");
+		Generator generator=new Generator();
+		return generator;
+		
+	}
+	
+
+}

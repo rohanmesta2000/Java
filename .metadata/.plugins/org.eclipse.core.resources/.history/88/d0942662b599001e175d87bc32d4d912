@@ -1,0 +1,14 @@
+package com.xworkz.youtube.configuration;
+
+public class Microwave {
+	public Microwave() {
+		System.out.println("craeted  Microwave");
+		}
+		
+		public Microwave microwave1() {
+			System.out.println("created Microwave in bean config");
+			Microwave microwave=new Microwave();
+			return microwave;
+			
+		}
+}

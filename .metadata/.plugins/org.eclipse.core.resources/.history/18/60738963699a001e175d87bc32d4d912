@@ -1,0 +1,20 @@
+package com.xworkz.youtube.things;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import org.springframework.stereotype.Component;
+@Component
+public class Microwave {
+	private Radio radio1;
+	private Bulb bulb1;
+	@Autowired
+	public Microwave(Radio radio1,Bulb bulb1) {
+		this.radio1=radio1;
+		this.bulb1=bulb1;
+		
+		System.out.println("Radio" + this.radio1 );
+		System.out.println("Bulb" + this.bulb1 );
+		}
+		
+		
+}

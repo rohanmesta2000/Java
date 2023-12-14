@@ -1,0 +1,16 @@
+package com.xworkz.youtube.configuration;
+
+public class Generator {
+	public Generator() {
+	System.out.println("craeted  generator");
+	}
+	
+	public Generator generator1() {
+		System.out.println("created Generator in bean config");
+		Generator generator=new Generator();
+		return generator;
+		
+	}
+	
+
+}

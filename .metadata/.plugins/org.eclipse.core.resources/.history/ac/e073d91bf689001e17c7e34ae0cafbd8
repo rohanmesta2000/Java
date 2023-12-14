@@ -1,0 +1,18 @@
+package com.xworkz.runner;
+
+import java.time.LocalDate;
+
+import com.xworkz.DTO.ProductDTO;
+
+public class ProductRunner {
+
+	public static void main(String[] args) {
+		ProductDTO dto1=new ProductDTO("Chocalate",50,2,1,LocalDate.of(2023, 10, 20));
+		ProductDTO dto2=new ProductDTO("Rice", 100, 10, 2, LocalDate.of(2023, 6, 12));
+		ProductDTO dto3=new ProductDTO("Laptop", 300, 8, 4, LocalDate.of(2023, 11, 22));
+		
+		
+
+	}
+
+}

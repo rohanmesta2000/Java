@@ -1,0 +1,11 @@
+package com.xworkz.youtube.configuration;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Stamp {
+	public Stamp() {
+		System.out.println("created stamp");
+	}
+
+}

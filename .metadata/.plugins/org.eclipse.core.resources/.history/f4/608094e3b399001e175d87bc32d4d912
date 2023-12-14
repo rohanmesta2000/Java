@@ -1,0 +1,14 @@
+package com.xworkz.youtube.configuration;
+
+public class Temple {
+	public Temple() {
+		System.out.println("craeted  Temple");
+		}
+		
+		public Temple temple1() {
+			System.out.println("created Temple in bean config");
+			Temple temple=new Temple();
+			return temple;
+			
+		}
+}

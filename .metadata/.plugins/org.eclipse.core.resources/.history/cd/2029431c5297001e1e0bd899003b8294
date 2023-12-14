@@ -1,0 +1,28 @@
+package com.xworkz.automobile.service;
+
+import com.xworkz.automobile.model.Vehicle;
+import com.xworkz.automobile.repository.AutomobileRepository;
+
+//public class AutombileServiceimpl implements AutomobileService {
+//
+//	public AutombileServiceimpl() {
+//
+//	}
+//
+//	public void validateAndSave(Vehicle vehicle) {
+//		AutomobileRepository automobileRepository = new AutomobileRepositoryimpl();
+//		automobileRepository.saveVehicleDetails(vehicle);
+//		if (vehicle.getName() != null && vehicle.getColor() != null &&  vehicle.getModel()!=0)  {
+//			automobileRepository.saveVehicleDetails(vehicle);
+//		} else {
+//			System.out.println("Invalid Vehicle Details");
+//		}
+//
+//	}
+//
+//	public void validateAndSave(Vehicle vehicle) {
+//		// TODO Auto-generated method stub
+//		
+//	}
+//
+//}

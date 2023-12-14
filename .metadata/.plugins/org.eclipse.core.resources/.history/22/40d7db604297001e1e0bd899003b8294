@@ -1,0 +1,31 @@
+package com.xworkz.automobile.repository;
+
+import java.util.List;
+
+import com.xworkz.automobile.model.Vehicle;
+
+public class AutomobileRepositoryimpl implements AutomobileRepository {
+	public AutomobileRepositoryimpl() {
+		// TODO Auto-generated constructor stub
+	}
+	
+
+
+	@Override
+	public void saveVehicleDetails(Vehicle vehicle) {
+	try {
+		Class.forName("com.mysql.jdbc.Driver");
+	} catch (ClassNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+		
+	}
+
+	@Override
+	public void saveVehicleDetails(List<Vehicle> vehicle) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

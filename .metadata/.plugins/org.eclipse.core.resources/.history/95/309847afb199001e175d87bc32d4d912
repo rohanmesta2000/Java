@@ -1,0 +1,8 @@
+package com.xworkz.youtube.configuration;
+
+public class Temple {
+public Temple() {
+	// TODO Auto-generated constructor stub\
+	System.out.println("created temple");
+}
+}

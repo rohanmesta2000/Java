@@ -1,0 +1,17 @@
+package com.xworkz.youtube.things;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+@Configuration
+public class Perfume {
+	public Perfume() {
+		System.out.println("craeted  Perfume");
+		}
+		@Bean
+		public Perfume perfume1() {
+			System.out.println("created Perfume in bean config");
+			Perfume perfume=new Perfume();
+			return perfume;
+			
+		}
+}

@@ -1,0 +1,17 @@
+package com.xworkz.youtube.configuration;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
+
+@Component
+
+public class Stamp {
+	private Bottle bottle;
+	@Autowired
+	 public Stamp(Bottle bottle) {
+		System.out.println("created stamp");
+		this.bottle=bottle;
+	}
+
+}

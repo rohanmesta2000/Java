@@ -1,0 +1,17 @@
+package com.xworkz.youtube.configuration;
+
+import org.springframework.context.annotation.Bean;
+
+public class Bulb {
+	public Bulb() {
+		System.out.println("craeted  Bulb");
+		}
+		
+	@Bean
+		public Bulb bulb1() {
+			System.out.println("created Bulb in bean config");
+			Bulb bulb=new Bulb();
+			return bulb;
+			
+		}
+}

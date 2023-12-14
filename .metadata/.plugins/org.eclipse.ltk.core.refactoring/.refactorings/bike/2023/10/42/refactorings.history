@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;bike&apos;&#x0D;&#x0A;- Original project: &apos;bike&apos;&#x0D;&#x0A;- Original element: &apos;bike/src/bikecom.xworkz.easy.event&apos;" description="Delete element" element1="/src&lt;bikecom.xworkz.easy.event" element2="/src&lt;bikecom.xworkz.easy" element3="/src&lt;bikecom.xworkz" element4="/src&lt;bikecom" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1697803356646" subPackages="false" version="1.0"/>
+</session>
